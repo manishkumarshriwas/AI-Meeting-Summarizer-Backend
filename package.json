@@ -1,0 +1,26 @@
+{
+  "name": "meeting-notes-backend",
+  "version": "1.0.0",
+  "description": "Backend for Meeting Notes AI with Groq AI",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.10.1",
+    "openai": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
